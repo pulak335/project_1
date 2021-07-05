@@ -2,15 +2,52 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-weight: 600;
+    font-size: 2.5em;
+}
+span{
+    color:  #ffa600;
+}
+.flixable{
+    display:flex;
+}
 .container_top{
     width: 50%;
+    padding: 90px 60px 30px;
 }
 .container_top img{
+    width:100%;
     
 }
-.top-bar{
-    display: flex;
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#e67300,#ff9933);
+    padding: 12px 50px;
+    border-radius: 25px;
+    font-weight: 700;
+    color: #fff;
 }
-.skip{
-    color:#fb8847;
+.about-bar{
+    background-image: url(img/about-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.about{
+    margin-top: 18%;
+    
+}
+
+
+
+.title-web{
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+
 }
