@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.container_top{
+    width: 50%;
+}
+.container_top img{
+    
+}
+.top-bar{
+    display: flex;
+}
+.skip{
+    color:#fb8847;
+}
