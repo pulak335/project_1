@@ -27,6 +27,7 @@ span{
     border-radius: 25px;
     font-weight: 700;
     color: #fff;
+    box-shadow: 3px 3px 30px #e67300;
 }
 .about-bar{
     background-image: url(img/about-img.png);
@@ -49,5 +50,57 @@ span{
     margin-bottom: 5%;
     padding: 20px;
     box-shadow: 10px 10px 40px gray;
+}
+.recipes_card{
+    width: 30%;
+    float: left;
+    margin: 5%;
+}
+.recipes_card img{
+    width: 100%;
+}
+.recipes_card p{
+    font-weight: 300;
+}
+.title_recipe h2{
+    text-align: center;
+    color: gray;
+    padding: 30px;
+}
+.recipe_details{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.user{
+    width: 30%;
+    float: left;
+    margin: 10%;
+    text-align: center;
+}
+.user h4{
+    color: gray;
+}
+footer{
+    background-color: black;
+    padding-bottom: 150px;
+}
+footer{
+    color: rgb(126, 124, 124);
+    text-align: center;
+}
+footer h2 span{
+    background-image: linear-gradient(45deg, #f59f00, #fd0000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+footer p{
+    color:rgb(133, 133, 133);
+    margin-top: 3%;
+}
+footer h2{
+    padding-top: 35px;
 }
